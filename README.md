@@ -6,11 +6,7 @@
 ![](https://www.pngplay.com/image/195545)
 
 ---
-
 ## Overview
-## 📊 Project Overview
-
-## 📊 Project Overview
 
 This project analyzes Walmart sales transaction data using **SQL** to generate meaningful business insights from real-world retail data. The analysis focuses on key areas such as **payment behavior, product performance, customer ratings, branch-wise sales activity, time-based trends, and year-over-year revenue growth**.
 
@@ -52,8 +48,6 @@ The objective is to solve practical retail business problems while demonstrating
 - Customer rating patterns  
 - Sales trends by time, day, and year  
 - Revenue growth analysis  
-
-
 
 
 ## Used Tools : Python,SQL 
