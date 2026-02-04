@@ -2,7 +2,8 @@
 
 # Walmart Sales & Business Performance Analysis using SQL
 
-![Walmart Logo](https://www.pngplay.com/image/195545)
+
+![](https://www.pngplay.com/image/195545)
 
 ---
 
