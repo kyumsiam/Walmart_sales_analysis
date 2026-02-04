@@ -8,9 +8,53 @@
 ---
 
 ## Overview
-This project analyzes Walmart sales transaction data using **SQL** to uncover key business insights related to **payment behavior, product performance, customer ratings, branch-wise activity, time-based sales patterns, and year-over-year revenue trends**.
+## 📊 Project Overview
 
-The project focuses on solving real-world retail business problems and demonstrates practical SQL skills used in **data analytics and business intelligence**.
+## 📊 Project Overview
+
+This project analyzes Walmart sales transaction data using **SQL** to generate meaningful business insights from real-world retail data. The analysis focuses on key areas such as **payment behavior, product performance, customer ratings, branch-wise sales activity, time-based trends, and year-over-year revenue growth**.
+
+The objective is to solve practical retail business problems while demonstrating strong **SQL skills for data analytics and business intelligence**. The project follows an end-to-end data workflow, from raw data acquisition and cleaning to structured database analysis and insight generation.
+
+---
+
+## 🛠️ Tech Stack
+
+- **SQL** – Business analysis and insight generation  
+- **PostgreSQL** – Relational database management  
+- **Python (Pandas, NumPy)** – Data cleaning and preprocessing  
+- **VS Code** – Development environment  
+- **Kaggle** – Dataset sourcing  
+- **Git & GitHub** – Version control and project documentation  
+
+---
+
+## 🔄 Project Workflow
+
+1. Set up the development environment in **VS Code**
+2. Connect to **Kaggle** and download the Walmart sales dataset
+3. Clean and preprocess the data using **Python**
+   - Handle missing values  
+   - Rename and standardize column names  
+   - Ensure correct data types
+4. Connect **PostgreSQL** with VS Code
+5. Upload the cleaned dataset into PostgreSQL
+6. Write optimized **SQL queries** to answer key business questions
+7. Analyze results to uncover insights and trends useful for decision-making
+
+---
+
+## 📈 Key Insights Covered
+
+- Customer payment preferences  
+- High-performing and low-performing products  
+- Branch-wise sales comparison  
+- Customer rating patterns  
+- Sales trends by time, day, and year  
+- Revenue growth analysis  
+
+
+
 
 ## Used Tools : Python,SQL 
 
