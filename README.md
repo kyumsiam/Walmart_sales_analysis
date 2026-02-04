@@ -9,23 +9,23 @@ This project analyzes Walmart sales transaction data using SQL to uncover key bu
 
 The analysis focuses on solving real-world retail business problems that support data-driven decision-making for operations, marketing, and revenue optimization.
 
-Objectives
+# Objectives
 
-Analyze payment methods and quantity sold
+-Analyze payment methods and quantity sold
 
-Identify top-rated product categories per branch
+-Identify top-rated product categories per branch
 
-Determine busiest days for each branch
+-Determine busiest days for each branch
 
-Evaluate rating performance across cities and categories
+-Evaluate rating performance across cities and categories
 
-Calculate revenue and profit by category
+-Calculate revenue and profit by category
 
-Understand customer behavior across time shifts
+-Understand customer behavior across time shifts
 
-Identify preferred payment methods by branch
+-Identify preferred payment methods by branch
 
-Detect branches with declining revenue year-over-year
+-Detect branches with declining revenue year-over-year
 
 Dataset
 
