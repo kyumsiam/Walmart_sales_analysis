@@ -76,9 +76,9 @@ SELECT
 FROM walmart
 GROUP BY payment_method;
 ```
-Objective: Identify the highest-rated category in each branch.
+## Objective: Identify the highest-rated category in each branch.
 
-Which product category has the highest average rating in each branch?
+2. Which product category has the highest average rating in each branch?
 ``` sql
 SELECT *
 FROM (
@@ -92,9 +92,9 @@ FROM (
 )
 WHERE rank = 1;
 ```
-Objective: Determine the busiest day for each branch.
+## Objective: Determine the busiest day for each branch.
 
-Which day has the highest number of transactions per branch?
+3. Which day has the highest number of transactions per branch?
 ``` sql
 SELECT *
 FROM (
@@ -108,9 +108,9 @@ FROM (
 )
 WHERE rank = 1;
 ```
-Objective: Calculate total quantity sold per payment method.
+## Objective: Calculate total quantity sold per payment method.
 
-How many items are sold using each payment method?
+4. How many items are sold using each payment method?
 ``` sql
 SELECT 
     payment_method,
@@ -118,9 +118,9 @@ SELECT
 FROM walmart
 GROUP BY payment_method;
 ```
-Objective: Analyze customer ratings by city and category.
+## Objective: Analyze customer ratings by city and category.
 
-What are the average, minimum, and maximum ratings for each category in every city?
+5. What are the average, minimum, and maximum ratings for each category in every city?
 ``` sql
 SELECT 
     city,
@@ -131,9 +131,9 @@ SELECT
 FROM walmart
 GROUP BY city, category;
 ```
-Objective: Evaluate revenue and profit by category.
+## Objective: Evaluate revenue and profit by category.
 
-Which categories generate the highest revenue and profit?
+6. Which categories generate the highest revenue and profit?
 ``` sql
 SELECT 
     category,
@@ -143,9 +143,9 @@ FROM walmart
 GROUP BY category
 ORDER BY profit DESC;
 ```
-Objective: Identify preferred payment methods by branch.
+## Objective: Identify preferred payment methods by branch.
 
-What is the most commonly used payment method in each branch?
+7. What is the most commonly used payment method in each branch?
 ``` sql
 WITH cte AS (
     SELECT 
@@ -160,9 +160,9 @@ SELECT *
 FROM cte
 WHERE rank = 1;
 ```
-Objective: Analyze sales distribution across time shifts.
+## Objective: Analyze sales distribution across time shifts.
 
-How do sales vary by time of day (Morning, Afternoon, Evening)?
+8. How do sales vary by time of day (Morning, Afternoon, Evening)?
 ``` sql
 SELECT
     branch,
@@ -176,9 +176,9 @@ FROM walmart
 GROUP BY branch, day_time
 ORDER BY branch, total_invoices DESC;
 ```
-Objective: Identify branches with declining revenue year-over-year.
+## Objective: Identify branches with declining revenue year-over-year.
 
-Which 5 branches have the highest revenue decrease from 2022 to 2023?
+9. Which 5 branches have the highest revenue decrease from 2022 to 2023?
 ``` sql
 WITH revenue_2022 AS (
     SELECT 
