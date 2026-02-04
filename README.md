@@ -8,7 +8,7 @@
 ---
 
 ## Overview
-
+Used Tools : Python,SQL 
 This project analyzes Walmart sales transaction data using **SQL** to uncover key business insights related to **payment behavior, product performance, customer ratings, branch-wise activity, time-based sales patterns, and year-over-year revenue trends**.
 
 The project focuses on solving real-world retail business problems and demonstrates practical SQL skills used in **data analytics and business intelligence**.
