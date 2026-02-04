@@ -1,52 +1,53 @@
-# Walmart_sales_analysis
+# 🛒 Walmart_Sales_Analysis
 
-Walmart_Sales_Analysis
-Walmart Sales & Business Performance Analysis using SQL
+# Walmart Sales & Business Performance Analysis using SQL
 
-# Overview
+![](https://img.freepik.com/free-vector/business-data-analysis-concept-illustration_114360-8164.jpg)
 
-This project analyzes Walmart sales transaction data using SQL to uncover key business insights related to payment behavior, product performance, customer ratings, branch-wise activity, time-based sales patterns, and year-over-year revenue trends.
+---
 
-The analysis focuses on solving real-world retail business problems that support data-driven decision-making for operations, marketing, and revenue optimization.
+## Overview
 
-# Objectives
+This project analyzes Walmart sales transaction data using **SQL** to uncover key business insights related to **payment behavior, product performance, customer ratings, branch-wise activity, time-based sales patterns, and year-over-year revenue trends**.
 
--Analyze payment methods and quantity sold
+The project focuses on solving real-world retail business problems and demonstrates practical SQL skills used in **data analytics and business intelligence**.
 
--Identify top-rated product categories per branch
+---
 
--Determine busiest days for each branch
+## Objectives
 
--Evaluate rating performance across cities and categories
+- Analyze payment methods and total quantity sold  
+- Identify highest-rated product categories per branch  
+- Determine busiest days for each branch  
+- Evaluate rating trends across cities and categories  
+- Calculate revenue and profit by category  
+- Understand sales distribution across time shifts  
+- Identify preferred payment methods by branch  
+- Detect branches with declining year-over-year revenue  
 
--Calculate revenue and profit by category
+---
 
--Understand customer behavior across time shifts
+## Dataset
 
--Identify preferred payment methods by branch
-
--Detect branches with declining revenue year-over-year
-
-Dataset
-
-The dataset represents transactional-level sales data from Walmart stores.
+The dataset represents **transaction-level Walmart sales data**.  
 Each record corresponds to a single customer transaction.
 
-Key attributes include:
+### Key Attributes
 
-Branch and city information
+- Branch and city  
+- Product category  
+- Payment method  
+- Quantity purchased  
+- Unit price and total sales  
+- Profit margin  
+- Customer rating  
+- Transaction date and time  
 
-Product category and quantity
+---
 
-Payment method
+## Schema
 
-Customer rating
-
-Transaction date and time
-
-Revenue and profit margin
-``` sql
-Schema
+```sql
 CREATE TABLE walmart (
     branch VARCHAR(10),
     city VARCHAR(50),
@@ -62,10 +63,11 @@ CREATE TABLE walmart (
 );
 ```
 
-Business Problems and Solutions
-Objective: Analyze payment methods and total quantity sold.
+# Business Problems and Solutions
 
-What are the different payment methods, number of transactions, and quantity sold?
+## Objective: Analyze payment methods and total quantity sold.
+
+1. What are the different payment methods, number of transactions, and quantity sold?
 ``` sql 
 SELECT 
     payment_method,
